@@ -19,6 +19,10 @@ The pipeline (`notebooks/ai_parse_incremental.ipynb`) declares four streaming ta
 SDP manages checkpoints, retries, and incremental processing for you. There is no manual
 `writeStream` or checkpoint path.
 
+## Architecture
+
+See [`docs/architecture/index.html`](docs/architecture/index.html) for the full reference architecture diagram (self-contained, opens in any browser).
+
 ## Clone it into your Databricks workspace (Git folder)
 
 1. In your workspace, go to **Workspace → (your home) → Create → Git folder**.
